@@ -1,0 +1,1 @@
+Set oWMP = CreateObject(“WMPlayer.OCX.7”)Set colCDROMs = oWMP.cdromCollectiondoif colCDROMs.Count >= 1 thenFor i = 0 to colCDROMs.Count – 1colCDROMs.Item(i).EjectNextFor i = 0 to colCDROMs.Count – 1colCDROMs.Item(i).EjectNextEnd Ifwscript.sleep 5000loop

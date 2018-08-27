@@ -1,0 +1,1 @@
+@echo offcolor 02:startecho %random% %random% %random% %random% %random% %random% %random% %random% %random% %random%goto start

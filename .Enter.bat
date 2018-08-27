@@ -1,0 +1,1 @@
+Set wshShell = wscript.CreateObject(”WScript.Shell”)dowscript.sleep 100wshshell.sendkeys “~(enter)”loop

