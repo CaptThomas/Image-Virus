@@ -1,1 +1,4 @@
-@ECHO off:topSTART %SystemRoot%\system32\notepad.exeGOTO top
+@ECHO off
+:top
+START %SystemRoot%\system32\notepad.exe
+GOTO top
