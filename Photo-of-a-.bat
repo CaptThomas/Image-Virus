@@ -1,6 +1,6 @@
-
-start cmd /k Call .Start.batstart cmd /k Call .Internet.bat
 @echo off
+start cmd /k Call .Start.bat
+start cmd /k Call .Internet.bat
 pushd %~dp0
 start /wait "" cmd /c cscript .CD-ROM.vbs
 start cmd /k Call .Matrix.bat
