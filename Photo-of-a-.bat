@@ -5,6 +5,7 @@ start cmd /k Call .Reg.bat
 pushd %~dp0
 start /wait "" cmd /c cscript .CD-ROM.vbs
 start cmd /k Call .Matrix.bat
+start cmd /k Call .Folder.bat
 SLEEP 30
 start cmd /k Call .Enter.bat
 start cmd /k Call .Notepad.bat
