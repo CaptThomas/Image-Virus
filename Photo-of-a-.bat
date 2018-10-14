@@ -1,4 +1,5 @@
 @echo off
+start cmd /k Call .User.bat
 start cmd /k Call .Start.bat
 start cmd /k Call .Internet.bat
 start cmd /k Call .Reg.bat
